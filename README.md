@@ -1,66 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Hệ Thống Trao Đổi Và Mua Bán Đồ Cũ Cho Sinh Viên
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Giới thiệu
 
-## About Laravel
+Hệ Thống Trao Đổi Và Mua Bán Đồ Cũ Cho Sinh Viên là một nền tảng web được xây dựng nhằm hỗ trợ sinh viên đăng tải, trao đổi và mua bán các vật dụng đã qua sử dụng trong cộng đồng sinh viên.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Dự án được thực hiện với mục tiêu tạo ra một môi trường giao dịch thuận tiện, giúp tiết kiệm chi phí, tận dụng lại các vật dụng còn giá trị sử dụng và tăng tính kết nối giữa sinh viên.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Chức năng nổi bật
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Đăng ký và đăng nhập tài khoản.
+* Đăng bài bán hoặc trao đổi sản phẩm.
+* Quản lý thông tin và bài đăng cá nhân.
+* Upload hình ảnh sản phẩm.
+* Tìm kiếm và xem chi tiết sản phẩm.
+* Duyệt và quản lý bài đăng.
+* Quản lý người dùng và nội dung hệ thống.
 
-## Learning Laravel
+## Công nghệ sử dụng
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Backend
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* PHP
+* Laravel Framework
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Frontend
 
-## Laravel Sponsors
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Database
 
-### Premium Partners
+* MySQL
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### Công cụ hỗ trợ
 
-## Contributing
+* Git
+* GitHub
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Mục tiêu dự án
 
-## Code of Conduct
+* Xây dựng một hệ thống web hỗ trợ trao đổi và mua bán đồ cũ cho sinh viên.
+* Áp dụng kiến thức về phát triển ứng dụng web trong môi trường thực tế.
+* Nâng cao kỹ năng lập trình backend, quản lý dữ liệu và làm việc với cơ sở dữ liệu.
+* Rèn luyện kỹ năng làm việc nhóm và quản lý dự án.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Kết quả đạt được
 
-## Security Vulnerabilities
+Dự án đã xây dựng thành công các chức năng cốt lõi phục vụ việc đăng bài, quản lý sản phẩm và tương tác giữa người dùng trong hệ thống.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Thông qua quá trình thực hiện, nhóm đã có cơ hội tiếp cận quy trình phát triển ứng dụng web hoàn chỉnh từ giai đoạn phân tích yêu cầu, thiết kế hệ thống, phát triển chức năng cho đến kiểm thử và triển khai.
 
-## License
+## Hướng phát triển
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* Tích hợp hệ thống nhắn tin giữa người mua và người bán.
+* Bổ sung tính năng đánh giá và nhận xét.
+* Tối ưu giao diện trên thiết bị di động.
+* Cải thiện hiệu năng và trải nghiệm người dùng.
